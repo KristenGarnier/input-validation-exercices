@@ -1,0 +1,21 @@
+meta {
+  name: Events
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/events
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "timestamp": "2024-12-13T12:00:00Z",
+    "type": "user",
+    "action": "login",
+    "userId": "user123"
+  }
+}

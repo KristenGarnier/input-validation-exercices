@@ -1,0 +1,29 @@
+meta {
+  name: Posts
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Mon premier article",
+    "content": "Contenu de l'article...",
+    "tags": [
+      {
+        "name": "tech",
+        "color": "#FF5733"
+      },
+      {
+        "name": "web",
+        "color": "#33FF57"
+      }
+    ],
+    "publishDate": "2024-12-13T12:00:00Z"
+  }
+}
