@@ -1,5 +1,7 @@
 # Exercices de validation de données avec Zod et Hono
 
+> Vous avez à votre disposition une collection de requêtes (bruno)[https://www.usebruno.com/] afin de pouvoir tester vos requêtes avec des données déjà préparées.
+
 ## Exercice 1 : Validation basique d'un utilisateur
 
 Créez un endpoint POST `/users` qui permet d'enregistrer un nouvel utilisateur. 
